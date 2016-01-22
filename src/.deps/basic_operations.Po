@@ -1,0 +1,6 @@
+basic_operations.o: basic_operations.c /usr/include/stdc-predef.h \
+ basic_operations.h
+
+/usr/include/stdc-predef.h:
+
+basic_operations.h:

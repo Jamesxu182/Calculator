@@ -22,7 +22,7 @@ static gboolean is_positive = TRUE;
 
 gdouble process(gdouble first, gchar sign, gdouble second)
 {
-	gdouble result;
+	gdouble result = 0;
 	
 	switch(sign)
 	{
