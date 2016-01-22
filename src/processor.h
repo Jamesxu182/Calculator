@@ -15,8 +15,18 @@ gdouble process(gdouble first, gchar sign, gdouble second);
 
 gchar * gdouble_to_gchar_array(gdouble result);
 
+void number_operation(GtkLabel * screen, const gchar * number);
+
+void sign_operation(GtkButton * button, GtkLabel * screen, const gchar sign_char);
+
 void clear_operation(GtkLabel * screen);
 
 void equal_operation(GtkLabel * screen);
+
+void dot_operation(GtkLabel * screen);
+
+void percent_operation(GtkLabel * screen);
+
+void positive_or_negtive_operation(GtkLabel * screen);
 
 #endif

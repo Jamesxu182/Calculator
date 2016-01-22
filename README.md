@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a simple implementation of basic calculator, which is wrote by C and GTK library. the inspiration comes from the calculator in iPhone. The project is built with Anjuta, which is a open source software for gnome.
+This is a simple implementation of basic calculator, which is written by C and GTK library. the inspiration comes from the calculator in iPhone. The project is built with Anjuta, which is a open source software for gnome. Recently, I just have compile successfully on Linux.
 
 ## Screenshot
 
@@ -25,7 +25,7 @@ Gnome Theme: Numix
 ./configure
 
 # Compile and build project.
-make
+make all-recursive
 
 # Run the programming after that.
 ./src/calculator

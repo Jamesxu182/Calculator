@@ -9,15 +9,7 @@
 #define CALLBACKS_H_
 
 #include <glib.h>
-
-static gboolean has_number_input = FALSE;
-static gint step = 0;
-static gdouble first_number = 0;
-static gdouble second_number = 0;
-static gchar sign = ' ';
-static GtkButton * sign_button = NULL;
-static gboolean is_result = FALSE;
-static gboolean is_positive = TRUE;
+#include <processor.h>
 
 void on_button_1_clicked(GtkButton * button, gpointer data);
 

@@ -1,17 +1,16 @@
 [Anjuta]
 Geometry=1364x715+0+0
 
-[File Loader]
-Files=../../src/basic_operations.c#33%%%../../src/basic_operations.h#18%%%../../src/callbacks.c#543%%%../../src/callbacks.h#60%%%../../src/gtk_button_extras.c#18%%%../../src/gtk_button_extras.h#17%%%../../src/gtk_label_extras.c#54%%%../../src/gtk_label_extras.h#21%%%../../src/processor.c#68%%%../../src/processor.h#22
-
-[Document Manager]
-bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
-
 [Execution]
-Program arguments=
 Program uri=../../Debug/src/calculator
 Run in terminal=2
 Working directories=../../.
+
+[File Loader]
+Files=../../src/callbacks.c#92%%%../../src/callbacks.h#12%%%../../src/processor.c#17%%%../../src/processor.h#12
+
+[Document Manager]
+bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
 
 [Project Manager]
 Shortcut=calculator//src//calculator

@@ -5,3 +5,37 @@
  *  Copyright  2016  Unknown
  *  <user@host>
  ****************************************************************************/
+#ifndef PROCESSOR_H_
+#define PROCESSOR_H_
+
+#include <glib.h>
+#include <gtk/gtk.h>
+
+static gboolean has_number_input = FALSE;
+static gint step = 0;
+static gdouble first_number = 0;
+static gdouble second_number = 0;
+static gchar sign = ' ';
+static GtkButton * sign_button = NULL;
+static gboolean is_result = FALSE;
+static gboolean is_positive = TRUE;
+
+gdouble process(gdouble first, gchar sign, gdouble second);
+
+gchar * gdouble_to_gchar_array(gdouble result);
+
+void number_operation(GtkLabel * screen, const gchar * number);
+
+void sign_operation(GtkButton * button, GtkLabel * screen, const gchar sign_char);
+
+void clear_operation(GtkLabel * screen);
+
+void equal_operation(GtkLabel * screen);
+
+void dot_operation(GtkLabel * screen);
+
+void percent_operation(GtkLabel * screen);
+
+void positive_or_negtive_operation(GtkLabel * screen);
+
+#endif
